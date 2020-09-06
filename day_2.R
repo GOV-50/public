@@ -9,7 +9,7 @@ library(PPBDS.data)
 
 # We start with qscores data from the PPBDS.data package, which is drawn from
 # the Harvard Q Quide. You can read about qscores by typing ?qscores at the
-# Console. Other handy commands include view(qscores) and summary(qscores).
+# Console. Other handy commands include View(qscores) and summary(qscores).
 
 # Let's make a simple plot of rating versus hours for classes in the Government
 # Department.
