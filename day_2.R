@@ -1,7 +1,7 @@
 # This is an example of an R "script," a simple text file containing R code and
 # with a .R subscript in its name. Today, we will use this script. On Thursday
 # we will take the next step and explore R markdown files. If you are having
-# trouble with these, this is a great resource:
+# trouble with this, use this great resource:
 
 # https://ismayc.github.io/rbasics-book/
 
@@ -16,8 +16,19 @@ library(PPBDS.data)
 # Console. Other handy commands include View(qscores), glimpse(qscores),  and
 # summary(qscores).
 
-# Let's make a simple plot of rating versus hours for classes in the Government
-# Department.
+
+# Scene 1: Which Gov course with 50 or more students has the highest rating?
+
+
+
+
+# Scene 2: Which undergraduate Gov course has the highest workload?
+
+
+
+
+# Scene 3: Let's make a simple plot of rating versus hours for classes in the
+# Government Department.
 
 qscores %>% 
   filter(department == "GOV") %>% 
@@ -26,11 +37,11 @@ qscores %>%
 # With your breakout group, modify this code to look at other departments. Can
 # you find something "interesting?"
 
-# Other questions, if you have time. Write your R code in this file.
 
-# Which Gov course with 50 or more students has the highest rating?
 
-# Which undergraduate Gov course has the highest workload?
 
+# Scene 4: Make the most interesting/beautiful plot which you can with this
+# data. Which breakout room is the most creative? Post the result in Rpubs,
+# following the instructions in the Tools appendix from The Primer.
 
 
