@@ -42,6 +42,8 @@ qscores %>%
 
 # Scene 4: Make the most interesting/beautiful plot which you can with this
 # data. Which breakout room is the most creative? Post the result in Rpubs,
-# following the instructions in the Tools appendix from The Primer.
+# following the instructions in the Tools appendix from The Primer. (Do do so,
+# you will probably want to put the code for the plot in a stand-alone Rmd
+# document.)
 
 
