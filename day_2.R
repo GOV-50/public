@@ -17,22 +17,27 @@ library(PPBDS.data)
 # summary(qscores).
 
 
+
+
 # Scene 1: Which Gov course with 50 or more students has the highest rating?
+# (Put your R code for this scene in the space below. You want a permanent
+# record.)
 
 
 
 
-# Scene 2: Which undergraduate Gov course has the highest workload?
+
+# Scene 2: Which undergraduate Gov course has the highest workload? Assign the
+# name of that course to a new R object you create: `torture_course`.
 
 
 
 
 # Scene 3: Let's make a simple plot of rating versus hours for classes in the
-# Government Department.
+# Government Department. Add nice features like labels and themes.
 
-qscores %>% 
-  filter(department == "GOV") %>% 
-  ggplot(mapping = aes(x = hours, y = rating)) + geom_point()
+
+
 
 # With your breakout group, modify this code to look at other departments. Can
 # you find something "interesting?"
