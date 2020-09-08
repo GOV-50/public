@@ -1,5 +1,9 @@
 # This is an example of an R "script," a simple text file containing R code and
-# with a .R subscript in its name.
+# with a .R subscript in its name. Today, we will use this script. On Thursday
+# we will take the next step and explore R markdown files. If you are having
+# trouble with these, this is a great resource:
+
+# https://ismayc.github.io/rbasics-book/
 
 # We first load two R libraries --- also known as R packages --- which we 
 # need for the analysis.
@@ -9,7 +13,8 @@ library(PPBDS.data)
 
 # We start with qscores data from the PPBDS.data package, which is drawn from
 # the Harvard Q Quide. You can read about qscores by typing ?qscores at the
-# Console. Other handy commands include View(qscores) and summary(qscores).
+# Console. Other handy commands include View(qscores), glimpse(qscores),  and
+# summary(qscores).
 
 # Let's make a simple plot of rating versus hours for classes in the Government
 # Department.
